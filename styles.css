@@ -1,0 +1,65 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000; /* 背景を黒に設定 */
+    color: #fff; /* 文字を白に設定 */
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    max-width: 1200px;
+}
+
+.main-content {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #fff; /* 文字を白に設定 */
+}
+
+canvas {
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.button-container {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.sidebar {
+    flex: 1;
+    border-left: 1px solid #ccc;
+    padding-left: 20px;
+    font-family: "Times New Roman", Times, serif; /* 明朝体に設定 */
+    color: #fff; /* 文字を白に設定 */
+}
+
+.poem {
+    white-space: pre-line;
+}
